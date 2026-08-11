@@ -2713,8 +2713,8 @@ async def main():
     from http.server import BaseHTTPRequestHandler, HTTPServer
     
     logger.info("تلاش برای بارگذاری متغیرهای محیطی...")
-    room_id = os.getenv("ROOM_ID", "68e771922d585712212e8070")
-    api_token = os.getenv("API_TOKEN", "ed578ca3bb6a6592059a878e4d807d0c7eac56742239fdcce7ca84841f2437e5")
+    room_id = os.getenv("ROOM_ID", "6a2d4bfea779f575d0adf1d3")
+    api_token = os.getenv("API_TOKEN", "d6bd2f158a773ba6ff6abfa431125d980b977d4366443bd7db6b2aed7d724ed5")
     
     if not room_id or not api_token:
         logger.error("ROOM_ID یا API_TOKEN تنظیم نشده‌اند.")
